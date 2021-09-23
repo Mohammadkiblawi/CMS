@@ -1,0 +1,46 @@
+.avatar {
+    vertical-align: middle !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+}
+
+.profile {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+body {
+    font-family: myFont;
+    direction: rtl;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('JF-Flat-regular.ttf');
+}
+
+.content {
+    line-height: 3;
+    word-break: break-all;
+}
+
+.avatar_preview {
+    width: 240px;
+    height: 240px;
+}
+
+
+/* .word-break {
+    word-break: break-all;
+} */
+
+footer {
+    margin-top: 200px;
+}
+
+#avatar_img:hover {
+    cursor: pointer;
+}
